@@ -1,13 +1,13 @@
 Package: recoverutils
-Title: Functions for handling and summarizing data primarily for RECOVER
+Title: Functions for handling and summarizing data for RECOVER
 Version: 2.0.0
 Authors@R: c(
     person("Pranav", "Anbarasu", , "pranavanba@gmail.com", role = c("aut", "cre")),
     person("Sage Bionetworks", role = "cph")
   )
 Maintainer: Pranav Anbarasu <pranavanba@gmail.com>
-Description: Provides functions for fetching data from and writing data to
-    Synapse, as well as processing and summarizing data.
+Description: Provides functions for fetching, processing, transforming, summarizing, and writing data to and from
+    Synapse and S3 storage, mainly for use in the NIH RECOVER initiative.
 License: Apache License (>= 2)
 URL: https://github.com/Sage-Bionetworks/recoverutils
 BugReports: https://github.com/Sage-Bionetworks/recoverutils/issues
