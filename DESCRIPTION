@@ -1,6 +1,6 @@
 Package: recoverutils
 Title: Functions for handling and summarizing data for RECOVER
-Version: 2.0.0
+Version: 2.0.1
 Authors@R: c(
     person("Pranav", "Anbarasu", , "pranavanba@gmail.com", role = c("aut", "cre")),
     person("Sage Bionetworks", role = "cph")

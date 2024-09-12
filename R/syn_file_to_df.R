@@ -16,7 +16,6 @@
 #' }
 #' 
 syn_file_to_df <- function(synID, cols = NULL) {
-  cat("Running syn_file_to_df()...\n")
   
   df <- 
     synapser::synGet(synID) %>% 

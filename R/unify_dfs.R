@@ -24,7 +24,6 @@
 #' head(combined_df_list)
 #' @export
 unify_dfs <- function(df_list) {
-  cat("Running unify_dfs()...\n")
   
   if (is.data.frame(df_list))stop("df_list must be a list of data frames, not a single data frame")
   if (is.character(df_list)) stop("df_list must be a list of data frames, not a character")
